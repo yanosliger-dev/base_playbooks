@@ -1,0 +1,7 @@
+---
+# Playbook for installing dns server with ability to add dns records straight in the playbook
+- name: Install and configure dns sever for internal use
+  hosts: dns_servers
+  become: true
+  roles:
+    - simple_dns_server
