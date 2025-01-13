@@ -1,0 +1,5 @@
+---
+- name: simple_dns_server
+  src: https://github.com/yanosliger-dev/simple_dns_server.git
+  scm: git
+  version: main
