@@ -1,0 +1,5 @@
+# Ignore inventories directory
+inventories/
+
+# Ignore roles directory
+roles/
