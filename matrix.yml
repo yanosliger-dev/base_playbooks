@@ -1,0 +1,7 @@
+---
+# Playbook for installing dns server with ability to add dns records straight in the playbook
+- name: Install and configure matrix synapse with federated instances
+  hosts: matrix_host
+  become: true
+  roles:
+    - simple_matrix_server
